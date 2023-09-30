@@ -31,8 +31,6 @@ h1 span {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   user-select: none;
-  /* border-radius: 4px; */
-  /* border-radius: 4px 4px 0 0; */
   border-radius: 10px;
   transition: all 0.6s ease-in-out;
 }
@@ -57,7 +55,6 @@ h1 span {
 .date-picker .dates {
   height: 0;
   display: block;
-  /* position: absolute; */
   top: 100%;
   left: 0;
   right: 0;
@@ -76,8 +73,6 @@ h1 span {
 }
 
 .date-picker .dates .month {
-  /* padding: 20px 10px; */
-  /* padding: 10px 5px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -99,7 +94,6 @@ h1 span {
 }
 
 .date-picker .dates .month .arrows:active {
-  /* background: #2d2d61; */
   background: #47d35a;
 }
 
@@ -107,7 +101,6 @@ h1 span {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   height: auto;
-  /* background: #47d35a; */
 }
 
 .date-picker .dates .day {
