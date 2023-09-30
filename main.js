@@ -52,7 +52,6 @@ next_month_element.addEventListener("click", goToNextMonth);
 prev_month_element.addEventListener("click", goToPrevMonth);
 
 function toggleDatePicker(e) {
-  //   console.log(e.composedPath());
   if (!checkEventPathForClass(e.composedPath(), "dates")) {
     dates_element.classList.toggle("active");
     date_picker_element.classList.toggle("active");
@@ -146,5 +145,4 @@ function formatDate(d) {
 
 function daysInMonth(month, year) {
   return new Date(year, month, 0).getDate();
-  //   console.log(new Date(year, month, 0).getDate());
 }
